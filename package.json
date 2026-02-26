@@ -1,0 +1,24 @@
+{
+  "name": "codemirror-decorations-demo",
+  "version": "1.0.0",
+  "description": "A demonstration of each primary CodeMirror decoration type",
+  "main": "main.mjs",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Alf Eaton",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "vite": "^7.3.1"
+  },
+  "dependencies": {
+    "@codemirror/state": "^6.5.4",
+    "@codemirror/view": "^6.39.15",
+    "shiki": "^3.23.0"
+  }
+}

@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 24px;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  background: #f8fafc;
+  color: #0f172a;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+section {
+  margin: 20px 0;
+}
+
+.demo-code {
+  margin: 10px 0 0;
+}
+
+.demo-code .shiki {
+  margin: 0;
+  padding: 10px 12px;
+  border-radius: 8px;
+  overflow: auto;
+  font: 12px/1.5 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.cm-editor {
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.cm-demo-mark {
+  background: #fef08a;
+  border-radius: 4px;
+  padding: 0 2px;
+}
+
+.cm-demo-widget {
+  margin-left: 8px;
+  padding: 1px 6px;
+  border-radius: 999px;
+  background: #e0e7ff;
+  color: #3730a3;
+  font-size: 12px;
+  vertical-align: middle;
+}
+
+.cm-demo-replaced {
+  padding: 1px 6px;
+  border-radius: 4px;
+  background: #fee2e2;
+  color: #991b1b;
+  font-size: 12px;
+}
+
+.cm-demo-line {
+  background: #ecfeff;
+}
+
+.cm-demo-block-wrapper {
+  background: #eef2ff;
+  border-left: 3px solid #6366f1;
+}
